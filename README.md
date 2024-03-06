@@ -13,7 +13,7 @@ This plugin will works with
 
 Put plugin jar into ```plugins``` folder. It will automatically generate config file when server has launched.
 
-If you want to change plugin language to English (the default is Japanese), delete or rename ```config.yml``` and rename ```config-en.yml``` to ```config.yml```.
+If you want to change plugin language to Japanese (the default is English), delete or rename ```config.yml``` and rename ```config-ja.yml``` to ```config.yml```.
 
 ## Commands
 
