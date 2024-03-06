@@ -1,0 +1,15 @@
+general:
+  # The maximum number of characters that can be sent to the server
+  max_characters: 100
+  # Warning message will be shown when player tried to send a message that exceeds the limit
+  warning_message_max: "§cWow!A very savory message.But sorry, you only can send %max_characters characters at a time."
+  # Warning message will be shown when player sent invaild command (e.g. /maxcharacters hogehoge)
+  warning_message_invalid_command: "§cInvalid command."
+  # Success message will be shown when command player sent executed successfully.
+  success_message: "§aSettings have been changed successfully!"
+  # Warning message will be shown when player does not have enough permission to execute the command.
+  warning_message_no_permission: "§cYou don't have enough permission."
+  # Help message.
+  help_message: "/regulatechat max <number> - You can change maximum number of characters you can use. \n/regulatechat reload - Reload config file.\n/regulatechat help - Show help."
+  # Message will be shown when the configuration file is reloaded.
+  reload_message: "§aConfig file has been reloaded!"
